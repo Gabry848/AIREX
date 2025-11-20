@@ -734,3 +734,76 @@ Category: experimental
 
   Test 1/2...
   ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  Test 2/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  ❌ All tests failed
+
+[8/10] Context Window Stress Test
+
+======================================================================
+Testing: Context Window Stress Test
+Model: deepseek/deepseek-chat-v3.1
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  Test 2/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  ❌ All tests failed
+
+[9/10] Zero-Structure Stream of Consciousness
+
+======================================================================
+Testing: Zero-Structure Stream of Consciousness
+Model: deepseek/deepseek-chat-v3.1
+Category: degradation
+======================================================================
+
+  Test 1/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  Test 2/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  ❌ All tests failed
+
+[10/10] Contradictory Multi-Instruction Chaos
+
+======================================================================
+Testing: Contradictory Multi-Instruction Chaos
+Model: deepseek/deepseek-chat-v3.1
+Category: degradation
+======================================================================
+
+  Test 1/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  Test 2/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
