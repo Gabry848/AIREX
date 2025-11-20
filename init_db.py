@@ -6,8 +6,12 @@ Reads and executes schema.sql to create all necessary tables.
 
 import os
 import sys
+from dotenv import load_dotenv
 from db import get_connection, close_connection, test_connection
 import logging
+
+# Load environment variables from .env file
+load_dotenv()
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
