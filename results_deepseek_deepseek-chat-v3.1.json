@@ -1,0 +1,156 @@
+{
+  "model_name": "deepseek/deepseek-chat-v3.1",
+  "model_info": {
+    "provider": "deepseek",
+    "model_name": "deepseek/deepseek-chat-v3.1"
+  },
+  "all_results": [
+    {
+      "technique": "Chain-of-Thought (CoT)",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Few-Shot Learning",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Role Playing",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Negative Prompting",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Temperature Zero",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Reverse Psychology",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Ultra-Verbose",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Emoji Overload",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Competitive Framing",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Meta-Prompting",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Constraint Injection",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Time Pressure Simulation",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Poetic Format",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Socratic Method",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Triple-Check Enforcement",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Broken Syntax",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Language Mixing",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Excessive Politeness",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Confidence Calibration",
+      "average_score": 0,
+      "num_tests": 0
+    }
+  ],
+  "top_10": [
+    {
+      "technique": "Chain-of-Thought (CoT)",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Few-Shot Learning",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Role Playing",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Negative Prompting",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Temperature Zero",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Reverse Psychology",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Ultra-Verbose",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Emoji Overload",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Competitive Framing",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Meta-Prompting",
+      "average_score": 0,
+      "num_tests": 0
+    }
+  ]
+}

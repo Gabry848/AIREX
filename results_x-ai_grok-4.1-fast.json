@@ -1,0 +1,157 @@
+{
+  "model_name": "x-ai/grok-4.1-fast",
+  "model_info": {
+    "self_description": "### Informazioni sul modello 'x-ai/grok-4.1-fast'\n\n- **Provider/Azienda che lo ha creato**  \n  Non esiste un modello pubblico o documentato con questo nome esatto rilasciato da xAI (l'azienda di Elon Musk che sviluppa la famiglia Grok). Potrebbe trattarsi di un riferimento interno, un prototipo non divulgato, un errore di nomenclatura (es. confusione con Grok-2 o Grok-3 preview) o un modello non ufficiale su piattaforme come Hugging Face. xAI gestisce modelli come Grok-1, Grok-1.5, Grok-2 e Grok-3 (in preview dal dicembre 2024).\n\n- **Anno di creazione**  \n  Non disponibile. Nessuna informazione pubblica su un 'grok-4.1-fast'. I modelli Grok recenti (Grok-2/3) sono del 2024.\n\n- **Dimensione (numero di parametri)**  \n  Non disponibile. Per confronto: Grok-1 ha 314 miliardi di parametri; Grok-2 \u00e8 stimato intorno ai 100-300B (non confermato); versioni \"fast\" tipicamente ottimizzate per inference rapida, ma senza dati specifici.\n\n- **Architettura**  \n  Non disponibile. La famiglia Grok usa architetture Transformer-based customizzate da xAI, con Mixture-of-Experts (MoE) in modelli recenti per efficienza (simile a Grok-1 MoE con 8 esperti).\n\n- **Context window**  \n  Non disponibile. Modelli Grok recenti supportano 128K token (Grok-1.5/2); versioni \"fast\" potrebbero avere finestre ridotte per velocit\u00e0 (es. 8K-32K).\n\n- **Punti di forza**  \n  Non valutabili direttamente. Ipotesi basata su pattern Grok: alta velocit\u00e0 inference (\"fast\" suggerisce ottimizzazioni), buon reasoning matematico/coding, umorismo integrato, resistenza a jailbreak. Forte in task real-time e multimodalit\u00e0 (immagini con Grok-1.5V+).\n\n- **Punti di debolezza**  \n  Non valutabili. Tipici di Grok: occasionalmente meno \"sicuro\" rispetto a modelli OpenAI (meno allineamento), dipendenza da dati X/Twitter (bias verso contenuti social), performance variabili su benchmark non inglesi.\n\n- **Casi d'uso ideali**  \n  Non definiti. Ideali per: chat real-time veloce, coding/assistenza dev, analisi dati rapidi, generazione creativa umoristica. Non adatto per task sensibili (privacy/sicurezza) senza verifica.\n\n**Nota**: Questo modello non appare in repository ufficiali xAI (API x.ai, Hugging Face xai-org). Per info aggiornate, consulta [x.ai](https://x.ai) o l'API Grok. Se intendi un altro modello (es. Grok-2), fornisci dettagli!",
+    "provider": "x-ai",
+    "model_name": "x-ai/grok-4.1-fast"
+  },
+  "all_results": [
+    {
+      "technique": "Chain-of-Thought (CoT)",
+      "average_score": 87.37214285714285,
+      "num_tests": 14
+    },
+    {
+      "technique": "Ultra-Verbose",
+      "average_score": 86.03266666666666,
+      "num_tests": 15
+    },
+    {
+      "technique": "Competitive Framing",
+      "average_score": 77.63533333333332,
+      "num_tests": 15
+    },
+    {
+      "technique": "Role Playing",
+      "average_score": 75.68466666666669,
+      "num_tests": 15
+    },
+    {
+      "technique": "Meta-Prompting",
+      "average_score": 74.78666666666666,
+      "num_tests": 15
+    },
+    {
+      "technique": "Temperature Zero",
+      "average_score": 66.374,
+      "num_tests": 15
+    },
+    {
+      "technique": "Reverse Psychology",
+      "average_score": 65.16933333333334,
+      "num_tests": 15
+    },
+    {
+      "technique": "Emoji Overload",
+      "average_score": 64.11733333333332,
+      "num_tests": 15
+    },
+    {
+      "technique": "Negative Prompting",
+      "average_score": 57.300666666666665,
+      "num_tests": 15
+    },
+    {
+      "technique": "Few-Shot Learning",
+      "average_score": 50.4376923076923,
+      "num_tests": 13
+    },
+    {
+      "technique": "Constraint Injection",
+      "average_score": 43.36357142857143,
+      "num_tests": 14
+    },
+    {
+      "technique": "Time Pressure Simulation",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Poetic Format",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Socratic Method",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Triple-Check Enforcement",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Broken Syntax",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Language Mixing",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Excessive Politeness",
+      "average_score": 0,
+      "num_tests": 0
+    },
+    {
+      "technique": "Confidence Calibration",
+      "average_score": 0,
+      "num_tests": 0
+    }
+  ],
+  "top_10": [
+    {
+      "technique": "Chain-of-Thought (CoT)",
+      "average_score": 87.37214285714285,
+      "num_tests": 14
+    },
+    {
+      "technique": "Ultra-Verbose",
+      "average_score": 86.03266666666666,
+      "num_tests": 15
+    },
+    {
+      "technique": "Competitive Framing",
+      "average_score": 77.63533333333332,
+      "num_tests": 15
+    },
+    {
+      "technique": "Role Playing",
+      "average_score": 75.68466666666669,
+      "num_tests": 15
+    },
+    {
+      "technique": "Meta-Prompting",
+      "average_score": 74.78666666666666,
+      "num_tests": 15
+    },
+    {
+      "technique": "Temperature Zero",
+      "average_score": 66.374,
+      "num_tests": 15
+    },
+    {
+      "technique": "Reverse Psychology",
+      "average_score": 65.16933333333334,
+      "num_tests": 15
+    },
+    {
+      "technique": "Emoji Overload",
+      "average_score": 64.11733333333332,
+      "num_tests": 15
+    },
+    {
+      "technique": "Negative Prompting",
+      "average_score": 57.300666666666665,
+      "num_tests": 15
+    },
+    {
+      "technique": "Few-Shot Learning",
+      "average_score": 50.4376923076923,
+      "num_tests": 13
+    }
+  ]
+}
