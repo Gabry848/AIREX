@@ -1,0 +1,508 @@
+======================================================================
+QUICK RESEARCH MODE - 2 tests per technique
+======================================================================
+Testing 10 techniques across 10 models
+Total tests: ~200
+======================================================================
+
+######################################################################
+# MODEL 1/10: x-ai/grok-4.1-fast
+######################################################################
+
+
+[1/10] Mega-Context Compression
+
+======================================================================
+Testing: Mega-Context Compression
+Model: x-ai/grok-4.1-fast
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (5700 chars)
+  Scores - Acc: 90, Coh: 100, Rel: 86, Cre: 82 | Overall: 86.6%
+
+  Test 2/2...
+  ✓ Received response (2258 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 45, Cre: 85 | Overall: 69.0%
+✓ Evaluation added/updated for x-ai/grok-4.1-fast + Mega-Context Compression
+
+  ⚠️ Technique INCONCLUSIVE (Overall: 77.8%, Success: 50.0%)
+✓ Evaluation status updated to 'testing'
+
+[2/10] XML-Nested Hierarchical Structuring
+
+======================================================================
+Testing: XML-Nested Hierarchical Structuring
+Model: x-ai/grok-4.1-fast
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (721 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 58, Cre: 100 | Overall: 74.6%
+
+  Test 2/2...
+  ✓ Received response (700 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 33, Cre: 90 | Overall: 63.6%
+✓ Evaluation added/updated for x-ai/grok-4.1-fast + XML-Nested Hierarchical Structuring
+
+  ⚠️ Technique INCONCLUSIVE (Overall: 69.1%, Success: 50.0%)
+✓ Evaluation status updated to 'testing'
+
+[3/10] Iterative Self-Refinement Loop
+
+======================================================================
+Testing: Iterative Self-Refinement Loop
+Model: x-ai/grok-4.1-fast
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2981 chars)
+  Scores - Acc: 90, Coh: 70, Rel: 75, Cre: 81 | Overall: 78.2%
+
+  Test 2/2...
+  ✓ Received response (2804 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 63, Cre: 68 | Overall: 69.2%
+✓ Evaluation added/updated for x-ai/grok-4.1-fast + Iterative Self-Refinement Loop
+
+  ⚠️ Technique INCONCLUSIVE (Overall: 73.7%, Success: 50.0%)
+✓ Evaluation status updated to 'testing'
+
+[4/10] Anti-Hallucination Fact-Anchoring
+
+======================================================================
+Testing: Anti-Hallucination Fact-Anchoring
+Model: x-ai/grok-4.1-fast
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2355 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 92, Cre: 88 | Overall: 79.0%
+
+  Test 2/2...
+  ✓ Received response (832 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 75, Cre: 87 | Overall: 71.4%
+✓ Evaluation added/updated for x-ai/grok-4.1-fast + Anti-Hallucination Fact-Anchoring
+
+  ✅ Technique VALIDATED (Overall: 75.2%, Success: 100.0%)
+✓ Evaluation status updated to 'validated'
+
+[5/10] Reasoning Chain Visualization
+
+======================================================================
+Testing: Reasoning Chain Visualization
+Model: x-ai/grok-4.1-fast
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (3969 chars)
+  Scores - Acc: 70, Coh: 100, Rel: 100, Cre: 80 | Overall: 85.0%
+
+  Test 2/2...
+  ✓ Received response (3193 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 100, Cre: 84 | Overall: 79.8%
+✓ Evaluation added/updated for x-ai/grok-4.1-fast + Reasoning Chain Visualization
+
+  ✅ Technique VALIDATED (Overall: 82.4%, Success: 100.0%)
+✓ Evaluation status updated to 'validated'
+
+[6/10] Dual-Mode Paradox Testing
+
+======================================================================
+Testing: Dual-Mode Paradox Testing
+Model: x-ai/grok-4.1-fast
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2353 chars)
+  Scores - Acc: 60, Coh: 90, Rel: 71, Cre: 88 | Overall: 76.8%
+
+  Test 2/2...
+  ✓ Received response (3208 chars)
+  Scores - Acc: 80, Coh: 90, Rel: 91, Cre: 77 | Overall: 82.6%
+✓ Evaluation added/updated for x-ai/grok-4.1-fast + Dual-Mode Paradox Testing
+
+  ✅ Technique VALIDATED (Overall: 79.7%, Success: 100.0%)
+✓ Evaluation status updated to 'validated'
+
+[7/10] Markdown Table Overload
+
+======================================================================
+Testing: Markdown Table Overload
+Model: x-ai/grok-4.1-fast
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (1172 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 52, Cre: 87 | Overall: 66.8%
+
+  Test 2/2...
+  ✓ Received response (1003 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 50, Cre: 75 | Overall: 64.0%
+✓ Evaluation added/updated for x-ai/grok-4.1-fast + Markdown Table Overload
+
+  ❌ Technique REJECTED (Overall: 65.4%, Success: 0.0%)
+✓ Evaluation status updated to 'rejected'
+
+[8/10] Context Window Stress Test
+
+======================================================================
+Testing: Context Window Stress Test
+Model: x-ai/grok-4.1-fast
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2165 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 80, Cre: 91 | Overall: 73.2%
+
+  Test 2/2...
+  ✓ Received response (944 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 45, Cre: 87 | Overall: 65.4%
+✓ Evaluation added/updated for x-ai/grok-4.1-fast + Context Window Stress Test
+
+  ⚠️ Technique INCONCLUSIVE (Overall: 69.3%, Success: 50.0%)
+✓ Evaluation status updated to 'testing'
+
+[9/10] Zero-Structure Stream of Consciousness
+
+======================================================================
+Testing: Zero-Structure Stream of Consciousness
+Model: x-ai/grok-4.1-fast
+Category: degradation
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2479 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 100, Cre: 90 | Overall: 77.0%
+
+  Test 2/2...
+  ✓ Received response (935 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 75, Cre: 82 | Overall: 70.4%
+✓ Evaluation added/updated for x-ai/grok-4.1-fast + Zero-Structure Stream of Consciousness
+
+  ❌ Degradation technique REJECTED (unexpectedly good: 73.7%)
+✓ Evaluation status updated to 'rejected'
+
+[10/10] Contradictory Multi-Instruction Chaos
+
+======================================================================
+Testing: Contradictory Multi-Instruction Chaos
+Model: x-ai/grok-4.1-fast
+Category: degradation
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (1487 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 57, Cre: 99 | Overall: 70.2%
+
+  Test 2/2...
+  ✓ Received response (772 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 37, Cre: 89 | Overall: 64.2%
+✓ Evaluation added/updated for x-ai/grok-4.1-fast + Contradictory Multi-Instruction Chaos
+
+  ❌ Degradation technique REJECTED (unexpectedly good: 67.2%)
+✓ Evaluation status updated to 'rejected'
+
+======================================================================
+SUMMARY: x-ai/grok-4.1-fast
+======================================================================
+✅ Validated: 3
+❌ Rejected: 3
+⚠️ Inconclusive: 4
+======================================================================
+
+
+######################################################################
+# MODEL 2/10: openai/gpt-5-mini
+######################################################################
+
+
+[1/10] Mega-Context Compression
+
+======================================================================
+Testing: Mega-Context Compression
+Model: openai/gpt-5-mini
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (5381 chars)
+  Scores - Acc: 70, Coh: 100, Rel: 59, Cre: 79 | Overall: 76.6%
+
+  Test 2/2...
+  ✓ Received response (6093 chars)
+  Scores - Acc: 60, Coh: 100, Rel: 50, Cre: 57 | Overall: 68.4%
+  ❌ Error: Model 'openai/gpt-5-mini' not found
+
+[2/10] XML-Nested Hierarchical Structuring
+
+======================================================================
+Testing: XML-Nested Hierarchical Structuring
+Model: openai/gpt-5-mini
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (1568 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 58, Cre: 86 | Overall: 71.8%
+
+  Test 2/2...
+  ✓ Received response (682 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 33, Cre: 83 | Overall: 62.2%
+  ❌ Error: Model 'openai/gpt-5-mini' not found
+
+[3/10] Iterative Self-Refinement Loop
+
+======================================================================
+Testing: Iterative Self-Refinement Loop
+Model: openai/gpt-5-mini
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (4931 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 68, Cre: 68 | Overall: 70.2%
+
+  Test 2/2...
+  ✓ Received response (2268 chars)
+  Scores - Acc: 60, Coh: 70, Rel: 71, Cre: 65 | Overall: 68.2%
+  ❌ Error: Model 'openai/gpt-5-mini' not found
+
+[4/10] Anti-Hallucination Fact-Anchoring
+
+======================================================================
+Testing: Anti-Hallucination Fact-Anchoring
+Model: openai/gpt-5-mini
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (1971 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 80, Cre: 77 | Overall: 74.4%
+
+  Test 2/2...
+  ✓ Received response (886 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 56, Cre: 80 | Overall: 70.2%
+  ❌ Error: Model 'openai/gpt-5-mini' not found
+
+[5/10] Reasoning Chain Visualization
+
+======================================================================
+Testing: Reasoning Chain Visualization
+Model: openai/gpt-5-mini
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (3473 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 85, Cre: 71 | Overall: 74.2%
+
+  Test 2/2...
+  ✓ Received response (1336 chars)
+  Scores - Acc: 90, Coh: 70, Rel: 75, Cre: 76 | Overall: 77.2%
+  ❌ Error: Model 'openai/gpt-5-mini' not found
+
+[6/10] Dual-Mode Paradox Testing
+
+======================================================================
+Testing: Dual-Mode Paradox Testing
+Model: openai/gpt-5-mini
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2050 chars)
+  Scores - Acc: 80, Coh: 60, Rel: 71, Cre: 79 | Overall: 73.0%
+
+  Test 2/2...
+  ✓ Received response (1270 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 41, Cre: 82 | Overall: 63.6%
+  ❌ Error: Model 'openai/gpt-5-mini' not found
+
+[7/10] Markdown Table Overload
+
+======================================================================
+Testing: Markdown Table Overload
+Model: openai/gpt-5-mini
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (1546 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 67, Cre: 82 | Overall: 68.8%
+
+  Test 2/2...
+  ✓ Received response (825 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 30, Cre: 79 | Overall: 60.8%
+  ❌ Error: Model 'openai/gpt-5-mini' not found
+
+[8/10] Context Window Stress Test
+
+======================================================================
+Testing: Context Window Stress Test
+Model: openai/gpt-5-mini
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2148 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 70, Cre: 79 | Overall: 68.8%
+
+  Test 2/2...
+  ✓ Received response (765 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 45, Cre: 78 | Overall: 63.6%
+  ❌ Error: Model 'openai/gpt-5-mini' not found
+
+[9/10] Zero-Structure Stream of Consciousness
+
+======================================================================
+Testing: Zero-Structure Stream of Consciousness
+Model: openai/gpt-5-mini
+Category: degradation
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2725 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 100, Cre: 80 | Overall: 75.0%
+
+  Test 2/2...
+  ✓ Received response (3012 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 60, Cre: 57 | Overall: 62.4%
+  ❌ Error: Model 'openai/gpt-5-mini' not found
+
+[10/10] Contradictory Multi-Instruction Chaos
+
+======================================================================
+Testing: Contradictory Multi-Instruction Chaos
+Model: openai/gpt-5-mini
+Category: degradation
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (1669 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 50, Cre: 76 | Overall: 64.2%
+
+  Test 2/2...
+  ✓ Received response (671 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 18, Cre: 88 | Overall: 60.2%
+  ❌ Error: Model 'openai/gpt-5-mini' not found
+
+======================================================================
+SUMMARY: openai/gpt-5-mini
+======================================================================
+✅ Validated: 0
+❌ Rejected: 0
+⚠️ Inconclusive: 0
+======================================================================
+
+
+######################################################################
+# MODEL 3/10: qwen/qwen3-235b-a22b-2507
+######################################################################
+
+
+[1/10] Mega-Context Compression
+
+======================================================================
+Testing: Mega-Context Compression
+Model: qwen/qwen3-235b-a22b-2507
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (4544 chars)
+  Scores - Acc: 90, Coh: 100, Rel: 59, Cre: 76 | Overall: 80.0%
+
+  Test 2/2...
+  ✓ Received response (4218 chars)
+  Scores - Acc: 70, Coh: 100, Rel: 59, Cre: 73 | Overall: 75.4%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[2/10] XML-Nested Hierarchical Structuring
+
+======================================================================
+Testing: XML-Nested Hierarchical Structuring
+Model: qwen/qwen3-235b-a22b-2507
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (780 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 58, Cre: 92 | Overall: 73.0%
+
+  Test 2/2...
+  ✓ Received response (774 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 25, Cre: 87 | Overall: 61.4%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[3/10] Iterative Self-Refinement Loop
+
+======================================================================
+Testing: Iterative Self-Refinement Loop
+Model: qwen/qwen3-235b-a22b-2507
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (3263 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 68, Cre: 65 | Overall: 69.6%
+
+  Test 2/2...
+  ✓ Received response (3255 chars)
+  Scores - Acc: 70, Coh: 100, Rel: 63, Cre: 59 | Overall: 73.4%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[4/10] Anti-Hallucination Fact-Anchoring
+
+======================================================================
+Testing: Anti-Hallucination Fact-Anchoring
+Model: qwen/qwen3-235b-a22b-2507
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (1480 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 80, Cre: 75 | Overall: 74.0%
+
+  Test 2/2...
+  ✓ Received response (1054 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 56, Cre: 81 | Overall: 66.4%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[5/10] Reasoning Chain Visualization
+
+======================================================================
+Testing: Reasoning Chain Visualization
+Model: qwen/qwen3-235b-a22b-2507
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (4388 chars)
+  Scores - Acc: 60, Coh: 100, Rel: 92, Cre: 62 | Overall: 77.8%
+
+  Test 2/2...
+  ✓ Received response (2958 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 93, Cre: 72 | Overall: 76.0%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[6/10] Dual-Mode Paradox Testing
+
+======================================================================
+Testing: Dual-Mode Paradox Testing
+Model: qwen/qwen3-235b-a22b-2507
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2627 chars)
+  Scores - Acc: 80, Coh: 60, Rel: 65, Cre: 74 | Overall: 70.8%
+
+  Test 2/2...
