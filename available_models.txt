@@ -1,2 +1,11 @@
 # Available Models on OpenRouter
 
+x-ai/grok-4.1-fast
+qwen/qwen3-235b-a22b-2507
+deepseek/deepseek-chat-v3.1
+mistralai/mistral-nemo
+mistralai/mistral-medium-3.1
+deepcogito/cogito-v2-preview-llama-405b
+openai/gpt-4o-mini
+amazon/nova-pro-v1
+anthropic/claude-3-haiku

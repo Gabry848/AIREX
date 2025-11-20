@@ -1,0 +1,437 @@
+======================================================================
+CONTINUING RESEARCH ON AVAILABLE MODELS
+======================================================================
+Already completed: x-ai/grok-4.1-fast
+Testing now: 8 remaining models
+======================================================================
+
+Testing 10 techniques per model
+Total tests: ~160 API calls
+
+
+######################################################################
+# MODEL 2/10: qwen/qwen3-235b-a22b-2507
+# (Testing 1/8 of remaining models)
+######################################################################
+
+
+[1/10] Mega-Context Compression
+
+======================================================================
+Testing: Mega-Context Compression
+Model: qwen/qwen3-235b-a22b-2507
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (5459 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 71, Cre: 72 | Overall: 71.6%
+
+  Test 2/2...
+  ✓ Received response (4258 chars)
+  Scores - Acc: 70, Coh: 100, Rel: 86, Cre: 72 | Overall: 80.6%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[2/10] XML-Nested Hierarchical Structuring
+
+======================================================================
+Testing: XML-Nested Hierarchical Structuring
+Model: qwen/qwen3-235b-a22b-2507
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (745 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 58, Cre: 100 | Overall: 74.6%
+
+  Test 2/2...
+  ✓ Received response (803 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 25, Cre: 85 | Overall: 61.0%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[3/10] Iterative Self-Refinement Loop
+
+======================================================================
+Testing: Iterative Self-Refinement Loop
+Model: qwen/qwen3-235b-a22b-2507
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2781 chars)
+  Scores - Acc: 60, Coh: 100, Rel: 43, Cre: 65 | Overall: 68.6%
+
+  Test 2/2...
+  ✓ Received response (3066 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 55, Cre: 63 | Overall: 66.6%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[4/10] Anti-Hallucination Fact-Anchoring
+
+======================================================================
+Testing: Anti-Hallucination Fact-Anchoring
+Model: qwen/qwen3-235b-a22b-2507
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (1581 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 80, Cre: 74 | Overall: 73.8%
+
+  Test 2/2...
+  ✓ Received response (873 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 37, Cre: 85 | Overall: 63.4%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[5/10] Reasoning Chain Visualization
+
+======================================================================
+Testing: Reasoning Chain Visualization
+Model: qwen/qwen3-235b-a22b-2507
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (4596 chars)
+  Scores - Acc: 90, Coh: 70, Rel: 100, Cre: 63 | Overall: 79.6%
+
+  Test 2/2...
+  ✓ Received response (2466 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 93, Cre: 72 | Overall: 76.0%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[6/10] Dual-Mode Paradox Testing
+
+======================================================================
+Testing: Dual-Mode Paradox Testing
+Model: qwen/qwen3-235b-a22b-2507
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2518 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 58, Cre: 70 | Overall: 64.6%
+
+  Test 2/2...
+  ✓ Received response (2506 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 75, Cre: 80 | Overall: 70.0%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[7/10] Markdown Table Overload
+
+======================================================================
+Testing: Markdown Table Overload
+Model: qwen/qwen3-235b-a22b-2507
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (1167 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 60, Cre: 77 | Overall: 66.4%
+
+  Test 2/2...
+  ✓ Received response (1118 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 100, Cre: 77 | Overall: 74.4%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[8/10] Context Window Stress Test
+
+======================================================================
+Testing: Context Window Stress Test
+Model: qwen/qwen3-235b-a22b-2507
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2593 chars)
+  Scores - Acc: 60, Coh: 90, Rel: 90, Cre: 79 | Overall: 78.8%
+
+  Test 2/2...
+  ✓ Received response (1277 chars)
+  Scores - Acc: 80, Coh: 60, Rel: 60, Cre: 80 | Overall: 71.0%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[9/10] Zero-Structure Stream of Consciousness
+
+======================================================================
+Testing: Zero-Structure Stream of Consciousness
+Model: qwen/qwen3-235b-a22b-2507
+Category: degradation
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2761 chars)
+  Scores - Acc: 60, Coh: 90, Rel: 100, Cre: 76 | Overall: 80.2%
+
+  Test 2/2...
+  ✓ Received response (1303 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 75, Cre: 80 | Overall: 70.0%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[10/10] Contradictory Multi-Instruction Chaos
+
+======================================================================
+Testing: Contradictory Multi-Instruction Chaos
+Model: qwen/qwen3-235b-a22b-2507
+Category: degradation
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (1921 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 50, Cre: 82 | Overall: 65.4%
+
+  Test 2/2...
+  ⚠️ Attempt 1 failed: 503 Server Error: Service Unavailable for url: https://openrouter.ai/api/v1/chat/completions
+  ✓ Received response (912 chars)
+  Scores - Acc: 80, Coh: 60, Rel: 46, Cre: 85 | Overall: 69.2%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+======================================================================
+SUMMARY: qwen/qwen3-235b-a22b-2507
+======================================================================
+✅ Validated: 0
+❌ Rejected: 0
+⚠️ Inconclusive: 0
+======================================================================
+
+
+######################################################################
+# MODEL 3/10: deepseek/deepseek-chat-v3.1
+# (Testing 2/8 of remaining models)
+######################################################################
+
+
+[1/10] Mega-Context Compression
+
+======================================================================
+Testing: Mega-Context Compression
+Model: deepseek/deepseek-chat-v3.1
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (4306 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 82, Cre: 74 | Overall: 74.2%
+
+  Test 2/2...
+  ⚠️ Attempt 1 failed: 503 Server Error: Service Unavailable for url: https://openrouter.ai/api/v1/chat/completions
+  ✓ Received response (5176 chars)
+  Scores - Acc: 90, Coh: 70, Rel: 81, Cre: 67 | Overall: 76.6%
+  ❌ Error: Model 'deepseek/deepseek-chat-v3.1' not found
+
+[2/10] XML-Nested Hierarchical Structuring
+
+======================================================================
+Testing: XML-Nested Hierarchical Structuring
+Model: deepseek/deepseek-chat-v3.1
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ⚠️ Attempt 1 failed: 503 Server Error: Service Unavailable for url: https://openrouter.ai/api/v1/chat/completions
+  ✓ Received response (1695 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 65, Cre: 83 | Overall: 72.6%
+
+  Test 2/2...
+  ✓ Received response (1720 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 58, Cre: 80 | Overall: 70.6%
+  ❌ Error: Model 'deepseek/deepseek-chat-v3.1' not found
+
+[3/10] Iterative Self-Refinement Loop
+
+======================================================================
+Testing: Iterative Self-Refinement Loop
+Model: deepseek/deepseek-chat-v3.1
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (4668 chars)
+  Scores - Acc: 60, Coh: 70, Rel: 100, Cre: 64 | Overall: 73.8%
+
+  Test 2/2...
+  ✓ Received response (3857 chars)
+  Scores - Acc: 90, Coh: 100, Rel: 100, Cre: 63 | Overall: 85.6%
+  ❌ Error: Model 'deepseek/deepseek-chat-v3.1' not found
+
+[4/10] Anti-Hallucination Fact-Anchoring
+
+======================================================================
+Testing: Anti-Hallucination Fact-Anchoring
+Model: deepseek/deepseek-chat-v3.1
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (3485 chars)
+  Scores - Acc: 60, Coh: 70, Rel: 100, Cre: 71 | Overall: 75.2%
+
+  Test 2/2...
+  ✓ Received response (2101 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 100, Cre: 76 | Overall: 78.2%
+  ❌ Error: Model 'deepseek/deepseek-chat-v3.1' not found
+
+[5/10] Reasoning Chain Visualization
+
+======================================================================
+Testing: Reasoning Chain Visualization
+Model: deepseek/deepseek-chat-v3.1
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (4552 chars)
+  Scores - Acc: 70, Coh: 100, Rel: 100, Cre: 62 | Overall: 81.4%
+
+  Test 2/2...
+  ✓ Received response (3781 chars)
+  Scores - Acc: 70, Coh: 100, Rel: 100, Cre: 70 | Overall: 83.0%
+  ❌ Error: Model 'deepseek/deepseek-chat-v3.1' not found
+
+[6/10] Dual-Mode Paradox Testing
+
+======================================================================
+Testing: Dual-Mode Paradox Testing
+Model: deepseek/deepseek-chat-v3.1
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (3901 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 97, Cre: 69 | Overall: 72.2%
+
+  Test 2/2...
+  ✓ Received response (4527 chars)
+  Scores - Acc: 80, Coh: 60, Rel: 75, Cre: 66 | Overall: 71.2%
+  ❌ Error: Model 'deepseek/deepseek-chat-v3.1' not found
+
+[7/10] Markdown Table Overload
+
+======================================================================
+Testing: Markdown Table Overload
+Model: deepseek/deepseek-chat-v3.1
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (1560 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 67, Cre: 77 | Overall: 67.8%
+
+  Test 2/2...
+  ✓ Received response (5432 chars)
+  Scores - Acc: 80, Coh: 60, Rel: 80, Cre: 62 | Overall: 71.4%
+  ❌ Error: Model 'deepseek/deepseek-chat-v3.1' not found
+
+[8/10] Context Window Stress Test
+
+======================================================================
+Testing: Context Window Stress Test
+Model: deepseek/deepseek-chat-v3.1
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (3223 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 90, Cre: 72 | Overall: 71.4%
+
+  Test 2/2...
+  ✓ Received response (2335 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 90, Cre: 75 | Overall: 72.0%
+  ❌ Error: Model 'deepseek/deepseek-chat-v3.1' not found
+
+[9/10] Zero-Structure Stream of Consciousness
+
+======================================================================
+Testing: Zero-Structure Stream of Consciousness
+Model: deepseek/deepseek-chat-v3.1
+Category: degradation
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (4419 chars)
+  Scores - Acc: 70, Coh: 60, Rel: 100, Cre: 64 | Overall: 73.8%
+
+  Test 2/2...
+  ✓ Received response (1038 chars)
+  Scores - Acc: 80, Coh: 60, Rel: 45, Cre: 77 | Overall: 67.4%
+  ❌ Error: Model 'deepseek/deepseek-chat-v3.1' not found
+
+[10/10] Contradictory Multi-Instruction Chaos
+
+======================================================================
+Testing: Contradictory Multi-Instruction Chaos
+Model: deepseek/deepseek-chat-v3.1
+Category: degradation
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (1498 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 42, Cre: 86 | Overall: 64.6%
+
+  Test 2/2...
+  ✓ Received response (994 chars)
+  Scores - Acc: 80, Coh: 60, Rel: 18, Cre: 85 | Overall: 63.6%
+  ❌ Error: Model 'deepseek/deepseek-chat-v3.1' not found
+
+======================================================================
+SUMMARY: deepseek/deepseek-chat-v3.1
+======================================================================
+✅ Validated: 0
+❌ Rejected: 0
+⚠️ Inconclusive: 0
+======================================================================
+
+
+######################################################################
+# MODEL 4/10: mistralai/mistral-nemo
+# (Testing 3/8 of remaining models)
+######################################################################
+
+
+[1/10] Mega-Context Compression
+
+======================================================================
+Testing: Mega-Context Compression
+Model: mistralai/mistral-nemo
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2936 chars)
+  Scores - Acc: 90, Coh: 70, Rel: 51, Cre: 72 | Overall: 71.6%
+
+  Test 2/2...
+  ✓ Received response (1484 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 36, Cre: 69 | Overall: 64.0%
+  ❌ Error: Model 'mistralai/mistral-nemo' not found
+
+[2/10] XML-Nested Hierarchical Structuring
+
+======================================================================
+Testing: XML-Nested Hierarchical Structuring
+Model: mistralai/mistral-nemo
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (1157 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 52, Cre: 85 | Overall: 70.4%
+
+  Test 2/2...
+  ✓ Received response (1174 chars)
+  Scores - Acc: 90, Coh: 70, Rel: 33, Cre: 71 | Overall: 67.8%
+  ❌ Error: Model 'mistralai/mistral-nemo' not found
+
+[3/10] Iterative Self-Refinement Loop
+
+======================================================================
+Testing: Iterative Self-Refinement Loop
+Model: mistralai/mistral-nemo
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2957 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 68, Cre: 63 | Overall: 69.2%
+
+  Test 2/2...
