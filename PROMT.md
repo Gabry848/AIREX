@@ -149,15 +149,12 @@ Esegui ora tutta la configurazione.
 
 # MODELS.md (50 modelli OpenRouter — FINAL LIST)
 
-anthropic/claude-3.5-sonnet
 anthropic/claude-3.5-haiku
-anthropic/claude-3-sonnet
 anthropic/claude-3-haiku
-openai/gpt-4o
 openai/gpt-4o-mini
-openai/gpt-4.1
+openai/gpt-5-mini
+openai/gpt-5.1-mini
 openai/gpt-4.1-mini
-google/gemini-pro
 google/gemini-flash
 mistral/mistral-large
 mistral/mistral-small
