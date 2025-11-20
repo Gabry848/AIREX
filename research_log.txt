@@ -807,3 +807,39 @@ Category: degradation
   Test 2/2...
   ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
   ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  ❌ All tests failed
+
+======================================================================
+SUMMARY: deepseek/deepseek-chat-v3.1
+======================================================================
+✅ Validated: 0
+❌ Rejected: 0
+⚠️ Inconclusive: 0
+======================================================================
+
+
+######################################################################
+# MODEL 5/10: mistralai/mistral-nemo
+######################################################################
+
+
+[1/10] Mega-Context Compression
+
+======================================================================
+Testing: Mega-Context Compression
+Model: mistralai/mistral-nemo
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  Test 2/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
