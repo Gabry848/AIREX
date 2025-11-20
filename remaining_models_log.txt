@@ -435,3 +435,88 @@ Category: enhancement
   Scores - Acc: 70, Coh: 70, Rel: 68, Cre: 63 | Overall: 69.2%
 
   Test 2/2...
+  ✓ Received response (2571 chars)
+  Scores - Acc: 90, Coh: 100, Rel: 63, Cre: 58 | Overall: 77.2%
+  ❌ Error: Model 'mistralai/mistral-nemo' not found
+
+[4/10] Anti-Hallucination Fact-Anchoring
+
+======================================================================
+Testing: Anti-Hallucination Fact-Anchoring
+Model: mistralai/mistral-nemo
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (1621 chars)
+  Scores - Acc: 70, Coh: 100, Rel: 80, Cre: 70 | Overall: 79.0%
+
+  Test 2/2...
+  ✓ Received response (1013 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 37, Cre: 80 | Overall: 66.4%
+  ❌ Error: Model 'mistralai/mistral-nemo' not found
+
+[5/10] Reasoning Chain Visualization
+
+======================================================================
+Testing: Reasoning Chain Visualization
+Model: mistralai/mistral-nemo
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (3005 chars)
+  Scores - Acc: 70, Coh: 70, Rel: 92, Cre: 63 | Overall: 74.0%
+
+  Test 2/2...
+  ✓ Received response (3819 chars)
+  Scores - Acc: 90, Coh: 70, Rel: 75, Cre: 50 | Overall: 72.0%
+  ❌ Error: Model 'mistralai/mistral-nemo' not found
+
+[6/10] Dual-Mode Paradox Testing
+
+======================================================================
+Testing: Dual-Mode Paradox Testing
+Model: mistralai/mistral-nemo
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2827 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 71, Cre: 64 | Overall: 66.0%
+
+  Test 2/2...
+  ✓ Received response (1876 chars)
+  Scores - Acc: 80, Coh: 60, Rel: 58, Cre: 72 | Overall: 69.0%
+  ❌ Error: Model 'mistralai/mistral-nemo' not found
+
+[7/10] Markdown Table Overload
+
+======================================================================
+Testing: Markdown Table Overload
+Model: mistralai/mistral-nemo
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (1176 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 67, Cre: 75 | Overall: 67.4%
+
+  Test 2/2...
+  ✓ Received response (1149 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 60, Cre: 73 | Overall: 65.6%
+  ❌ Error: Model 'mistralai/mistral-nemo' not found
+
+[8/10] Context Window Stress Test
+
+======================================================================
+Testing: Context Window Stress Test
+Model: mistralai/mistral-nemo
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (54560 chars)
+  Scores - Acc: 60, Coh: 0, Rel: 70, Cre: 0 | Overall: 41.0%
+
+  Test 2/2...
