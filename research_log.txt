@@ -506,3 +506,231 @@ Category: experimental
   Scores - Acc: 80, Coh: 60, Rel: 65, Cre: 74 | Overall: 70.8%
 
   Test 2/2...
+  ✓ Received response (2670 chars)
+  Scores - Acc: 80, Coh: 60, Rel: 58, Cre: 78 | Overall: 70.2%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[7/10] Markdown Table Overload
+
+======================================================================
+Testing: Markdown Table Overload
+Model: qwen/qwen3-235b-a22b-2507
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (1258 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 67, Cre: 78 | Overall: 68.0%
+
+  Test 2/2...
+  ✓ Received response (1156 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 100, Cre: 78 | Overall: 74.6%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[8/10] Context Window Stress Test
+
+======================================================================
+Testing: Context Window Stress Test
+Model: qwen/qwen3-235b-a22b-2507
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2468 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 70, Cre: 76 | Overall: 68.2%
+
+  Test 2/2...
+  ✓ Received response (1190 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 60, Cre: 79 | Overall: 66.8%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[9/10] Zero-Structure Stream of Consciousness
+
+======================================================================
+Testing: Zero-Structure Stream of Consciousness
+Model: qwen/qwen3-235b-a22b-2507
+Category: degradation
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (3372 chars)
+  Scores - Acc: 60, Coh: 90, Rel: 80, Cre: 70 | Overall: 75.0%
+
+  Test 2/2...
+  ✓ Received response (1669 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 90, Cre: 75 | Overall: 72.0%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+[10/10] Contradictory Multi-Instruction Chaos
+
+======================================================================
+Testing: Contradictory Multi-Instruction Chaos
+Model: qwen/qwen3-235b-a22b-2507
+Category: degradation
+======================================================================
+
+  Test 1/2...
+  ✓ Received response (2147 chars)
+  Scores - Acc: 60, Coh: 60, Rel: 57, Cre: 85 | Overall: 67.4%
+
+  Test 2/2...
+  ✓ Received response (860 chars)
+  Scores - Acc: 80, Coh: 60, Rel: 46, Cre: 87 | Overall: 69.6%
+  ❌ Error: Model 'qwen/qwen3-235b-a22b-2507' not found
+
+======================================================================
+SUMMARY: qwen/qwen3-235b-a22b-2507
+======================================================================
+✅ Validated: 0
+❌ Rejected: 0
+⚠️ Inconclusive: 0
+======================================================================
+
+
+######################################################################
+# MODEL 4/10: deepseek/deepseek-chat-v3.1
+######################################################################
+
+
+[1/10] Mega-Context Compression
+
+======================================================================
+Testing: Mega-Context Compression
+Model: deepseek/deepseek-chat-v3.1
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  Test 2/2...
+  ⚠️ Attempt 1 failed: 503 Server Error: Service Unavailable for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  ❌ All tests failed
+
+[2/10] XML-Nested Hierarchical Structuring
+
+======================================================================
+Testing: XML-Nested Hierarchical Structuring
+Model: deepseek/deepseek-chat-v3.1
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  Test 2/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  ❌ All tests failed
+
+[3/10] Iterative Self-Refinement Loop
+
+======================================================================
+Testing: Iterative Self-Refinement Loop
+Model: deepseek/deepseek-chat-v3.1
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  Test 2/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  ❌ All tests failed
+
+[4/10] Anti-Hallucination Fact-Anchoring
+
+======================================================================
+Testing: Anti-Hallucination Fact-Anchoring
+Model: deepseek/deepseek-chat-v3.1
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  Test 2/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  ❌ All tests failed
+
+[5/10] Reasoning Chain Visualization
+
+======================================================================
+Testing: Reasoning Chain Visualization
+Model: deepseek/deepseek-chat-v3.1
+Category: enhancement
+======================================================================
+
+  Test 1/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  Test 2/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  ❌ All tests failed
+
+[6/10] Dual-Mode Paradox Testing
+
+======================================================================
+Testing: Dual-Mode Paradox Testing
+Model: deepseek/deepseek-chat-v3.1
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  Test 2/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 2 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ⚠️ Attempt 3 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+  ❌ Failed
+
+  ❌ All tests failed
+
+[7/10] Markdown Table Overload
+
+======================================================================
+Testing: Markdown Table Overload
+Model: deepseek/deepseek-chat-v3.1
+Category: experimental
+======================================================================
+
+  Test 1/2...
+  ⚠️ Attempt 1 failed: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
